@@ -2,28 +2,28 @@
 class Railbase < Formula
   desc "Single-file enterprise backend with auto-CRUD, auth, admin and realtime"
   homepage "https://railbase.app"
-  version "0.20.17"
+  version "0.20.18"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://railbase.app/dl/railbase_darwin_arm64"
-      sha256 "a8caf6d9be32d40f05b8a11a92020889b906a45eae5470473eb119d50631f0b3"
+      sha256 "b8dfe2899fdb2604683116aa06512f0ee6357716a40d79ec861342bb207db713"
     end
     on_intel do
       url "https://railbase.app/dl/railbase_darwin_amd64"
-      sha256 "0b022cae63f845de67c65fe1fb49e96175140d0392d3d5ae220699a53c86f8ad"
+      sha256 "c24be6f56b02c674690f1e50b7263db20116045d4b7daabe58ab5daa1a2bf63a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://railbase.app/dl/railbase_linux_arm64"
-      sha256 "2b8425af6f68bd6c411bea6f69d8f5a6b4cbcfdc28f81cefae053863dbc0d9ef"
+      sha256 "e5062dd4154ddb18feb8333d57a14795397014a2d8ea0fcd4817dd0402ab7ce8"
     end
     on_intel do
       url "https://railbase.app/dl/railbase_linux_amd64"
-      sha256 "87ce6579869c49e8b3e5b196665be71e13d955fc78147ac3550ab4c33cd30d93"
+      sha256 "4828fcfe56e676fba28bb95c26e00e4395d35145ee1f68d938b841d2a3d6b833"
     end
   end
 
